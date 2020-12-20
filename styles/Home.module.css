@@ -23,5 +23,25 @@
 .profileImage {
   filter: grayscale(100%);
   object-fit: cover;
+  object-position: top;
   z-index: -1;
+}
+
+.footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.icon {
+  fill: indianred;
+  width: 24px;
+  height: 24px;
+}
+
+.icon:hover {
+  fill: black;
 }
